@@ -84,8 +84,4 @@ ID | IdMask     |   IdFilter | Action          | IdOperand  | DataOperand       
   The modification bitmasks for the frame ID and data payload are unused 
   for blocking rules.
 
-
-In case no rule intercepts the frame, it will be forwarded to the other side unmodified.
-
-
-CAN FRAME FORMAT 
+Please see presentation under doc for further details.
