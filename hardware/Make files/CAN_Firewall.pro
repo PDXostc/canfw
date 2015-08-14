@@ -1,4 +1,4 @@
-update=8/13/2015 3:10:11 PM
+update=8/13/2015 4:54:23 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -27,7 +27,7 @@ BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=../../../Kicad_Custom_Parts
+LibDir=C:/Users/jbanks2/Documents/Projects/Kicad_Custom_Parts
 [eeschema/libraries]
 LibName1=CAN_Firewall-rescue
 LibName2=power
@@ -59,7 +59,6 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=C:/Users/jbanks2/Documents/Projects/CUSTOM_KICAD_PART
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
