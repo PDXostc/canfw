@@ -85,3 +85,6 @@ ID | IdMask     |   IdFilter | Action          | IdOperand  | DataOperand       
   for blocking rules.
 
 Please see presentation under doc for further details.
+
+Hardware Details and Data sheets:
+AT32UC3C2512C Datasheet http://www.mouser.com/ds/2/36/doc32117-74889.pdf
