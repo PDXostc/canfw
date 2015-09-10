@@ -1046,7 +1046,7 @@ CAR_Tx2RTS
 Text GLabel 4100 7450 0    60   Input ~ 0
 CAR_Rx1BF
 Text GLabel 4100 7550 0    60   Input ~ 0
-CAR_Rx1BF
+CAR_Rx0BF
 Text GLabel 5400 6950 2    60   Input ~ 0
 CAR_Tx0RTS
 Text GLabel 4100 7650 0    60   Input ~ 0

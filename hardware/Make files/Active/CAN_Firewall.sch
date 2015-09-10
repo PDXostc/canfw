@@ -156,9 +156,9 @@ F 3 "" H 3700 5850 60  0000 C CNN
 	1    3700 5850
 	1    0    0    -1  
 $EndComp
-Text GLabel 4150 2700 2    60   Input ~ 0
+Text GLabel 4150 2900 2    60   Input ~ 0
 LOOP_A
-Text GLabel 4050 2600 2    60   Input ~ 0
+Text GLabel 4050 2800 2    60   Input ~ 0
 LOOP_B
 $Comp
 L MC78M05CDT-RESCUE-CAN_Firewall U3
@@ -423,12 +423,12 @@ $EndComp
 $Comp
 L R R7
 U 1 1 55C430A0
-P 4000 2700
-F 0 "R7" V 4080 2700 50  0000 C CNN
-F 1 "470" V 4000 2700 50  0000 C CNN
-F 2 "Custom Parts:R_0603_sm" V 3930 2700 30  0001 C CNN
-F 3 "" H 4000 2700 30  0000 C CNN
-	1    4000 2700
+P 4000 2900
+F 0 "R7" V 4080 2900 50  0000 C CNN
+F 1 "470" V 4000 2900 50  0000 C CNN
+F 2 "Custom Parts:R_0603_sm" V 3930 2900 30  0001 C CNN
+F 3 "" H 4000 2900 30  0000 C CNN
+	1    4000 2900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -651,12 +651,12 @@ $EndComp
 $Comp
 L R R6
 U 1 1 55CDF193
-P 3750 2600
-F 0 "R6" V 3830 2600 50  0000 C CNN
-F 1 "470" V 3750 2600 50  0000 C CNN
-F 2 "Custom Parts:R_0603_sm" V 3680 2600 30  0001 C CNN
-F 3 "" H 3750 2600 30  0000 C CNN
-	1    3750 2600
+P 3750 2800
+F 0 "R6" V 3830 2800 50  0000 C CNN
+F 1 "470" V 3750 2800 50  0000 C CNN
+F 2 "Custom Parts:R_0603_sm" V 3680 2800 30  0001 C CNN
+F 3 "" H 3750 2800 30  0000 C CNN
+	1    3750 2800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1054,13 +1054,9 @@ CAR_INT
 Wire Wire Line
 	6100 7250 5400 7250
 Wire Wire Line
-	6100 6600 6100 7250
-Wire Wire Line
 	6100 6850 5400 6850
 Wire Wire Line
 	5400 7150 6050 7150
-Wire Wire Line
-	6050 7150 6050 6450
 Wire Wire Line
 	6050 6450 5400 6450
 Text GLabel 4100 6650 0    60   Input ~ 0
@@ -1276,13 +1272,9 @@ IVI_INT
 Wire Wire Line
 	3100 7250 2400 7250
 Wire Wire Line
-	3100 6500 3100 7250
-Wire Wire Line
 	3100 6850 2400 6850
 Wire Wire Line
 	3050 7150 2400 7150
-Wire Wire Line
-	3050 6350 3050 7150
 Wire Wire Line
 	3050 6450 2400 6450
 Text GLabel 1100 6650 0    60   Input ~ 0
@@ -1699,7 +1691,7 @@ F 3 "" H 950 2000 60  0000 C CNN
 $EndComp
 Connection ~ 7900 4950
 Wire Wire Line
-	4050 2600 3900 2600
+	4050 2800 3900 2800
 $Comp
 L SPST SW1
 U 1 1 55EC969E
@@ -1821,10 +1813,10 @@ Text GLabel 3600 2400 2    60   Input ~ 0
 MISO
 Text GLabel 3600 2300 2    60   Input ~ 0
 SCLK
-Text GLabel 3600 3200 2    60   Input ~ 0
+Text GLabel 3600 3100 2    60   Input ~ 0
 IVI_CS
 Wire Wire Line
-	3600 2700 3850 2700
+	3600 2900 3850 2900
 Text GLabel 3600 3400 2    60   Input ~ 0
 IVI_STBY
 Text GLabel 3600 3500 2    60   Input ~ 0
@@ -1897,4 +1889,72 @@ Wire Wire Line
 Wire Wire Line
 	8500 4950 8500 5050
 Connection ~ 8200 4950
+$Comp
+L R R16
+U 1 1 55F1D948
+P 3050 6650
+F 0 "R16" V 3130 6650 50  0000 C CNN
+F 1 "0" V 3050 6650 50  0000 C CNN
+F 2 "Custom Parts:R_0603_sm" V 2980 6650 30  0001 C CNN
+F 3 "" H 3050 6650 30  0000 C CNN
+	1    3050 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 55F1E8B2
+P 3100 7050
+F 0 "R18" V 3180 7050 50  0000 C CNN
+F 1 "0" V 3100 7050 50  0000 C CNN
+F 2 "Custom Parts:R_0603_sm" V 3030 7050 30  0001 C CNN
+F 3 "" H 3100 7050 30  0000 C CNN
+	1    3100 7050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 7150 3050 6800
+Wire Wire Line
+	3100 6500 3100 6900
+Wire Wire Line
+	3050 6350 3050 6500
+Wire Wire Line
+	3100 7200 3100 7250
+$Comp
+L R R17
+U 1 1 55F1F1AF
+P 6050 6650
+F 0 "R17" V 6130 6650 50  0000 C CNN
+F 1 "0" V 6050 6650 50  0000 C CNN
+F 2 "Custom Parts:R_0603_sm" V 5980 6650 30  0001 C CNN
+F 3 "" H 6050 6650 30  0000 C CNN
+	1    6050 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R19
+U 1 1 55F1F457
+P 6100 7050
+F 0 "R19" V 6180 7050 50  0000 C CNN
+F 1 "0" V 6100 7050 50  0000 C CNN
+F 2 "Custom Parts:R_0603_sm" V 6030 7050 30  0001 C CNN
+F 3 "" H 6100 7050 30  0000 C CNN
+	1    6100 7050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 6900 6100 6600
+Wire Wire Line
+	6100 7200 6100 7250
+Wire Wire Line
+	6050 7150 6050 6800
+Wire Wire Line
+	6050 6450 6050 6500
+Text GLabel 3600 3300 2    60   Input ~ 0
+IVI_RxCAN
+Text GLabel 3600 3200 2    60   Input ~ 0
+IVI_TxCAN
+Text GLabel 3600 2700 2    60   Input ~ 0
+CAR_RxCAN
+Text GLabel 3600 2600 2    60   Input ~ 0
+CAR_TxCAN
 $EndSCHEMATC
