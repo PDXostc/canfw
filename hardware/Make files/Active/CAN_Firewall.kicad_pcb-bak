@@ -3,7 +3,7 @@
   (general
     (links 201)
     (no_connects 0)
-    (area 39.949999 104.949999 108.050001 163.050001)
+    (area 16.000001 90.124999 143.75 186.200001)
     (thickness 1.6)
     (drawings 46)
     (tracks 1340)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../../Gerbers/V1.11/))
+      (outputdirectory C:/Users/jbanks2/Documents/Projects/canfw/hardware/Gerbers/Active/))
   )
 
   (net 0 "")

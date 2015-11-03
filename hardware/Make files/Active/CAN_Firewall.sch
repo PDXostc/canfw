@@ -1824,7 +1824,7 @@ Text GLabel 3600 1600 2    60   Input ~ 0
 CAR_STBY
 Text GLabel 3600 1700 2    60   Input ~ 0
 CAR_RESET
-Text GLabel 3600 1500 2    60   Input ~ 0
+Text GLabel 3600 1200 2    60   Input ~ 0
 CAR_INT
 Text GLabel 3600 3800 2    60   Input ~ 0
 IVI_INT

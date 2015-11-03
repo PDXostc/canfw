@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:CUSTOM_KICAD_PART
 LIBS:CAN_Firewall-cache
 EELAYER 25 0
 EELAYER END
@@ -1059,9 +1058,9 @@ Wire Wire Line
 	5400 7150 6050 7150
 Wire Wire Line
 	6050 6450 5400 6450
-Text GLabel 4100 6650 0    60   Input ~ 0
-CAR_CANH
 Text GLabel 4100 6750 0    60   Input ~ 0
+CAR_CANH
+Text GLabel 4100 6650 0    60   Input ~ 0
 CAR_CANL
 Text GLabel 4100 6850 0    60   Input ~ 0
 CAR_STBY
@@ -1277,9 +1276,9 @@ Wire Wire Line
 	3050 7150 2400 7150
 Wire Wire Line
 	3050 6450 2400 6450
-Text GLabel 1100 6650 0    60   Input ~ 0
-IVI_CANH
 Text GLabel 1100 6750 0    60   Input ~ 0
+IVI_CANH
+Text GLabel 1100 6650 0    60   Input ~ 0
 IVI_CANL
 Text GLabel 1100 6850 0    60   Input ~ 0
 IVI_STBY
